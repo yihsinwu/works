@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:
+        "Lucida Grande",
+        Helvetica,
+        "Helvetica Neue",
+        "HelveticaNeue-Light",
+        "Helvetica Neue Light",
+        Arial,
+        sans-serif;
+    font-size: 90%;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+#banner {
+    width: 1000px;
+    height: 100px;
+    background-color: coral;
+    clear: both;
+    position: fixed;
+}
+
+#content {
+    width: 600px;
+    background-color: azure;
+    float: left;
+}
+
+.gallery{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    height:auto;
+    float: left;
+    text-align: center;
+}
+
+.gallery img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    
+}
+
+#footer {
+    width: 100px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    clear: both;
+}
+
+#supporting {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    float: left;
+}
+
+#content,
+#nav,
+#supporting {
+    margin-top: 100px;
+}
+
+#content {
+    margin-left: 150px;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 10px;
+}
+
+.item {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+#nav {
+    width: 150px;
+    position: fixed;
+    margin-top: 100px;
+}
+
+#nav ul {
+    padding-left: 0px;
+}
+
+#nav li {
+    display: block;
+    background-color: darkorange;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav li:hover {
+    background-color: black;
+}
+
+#nav li a:hover {
+    color: aquamarine
+}

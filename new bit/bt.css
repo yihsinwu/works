@@ -1,0 +1,37 @@
+#content {
+    background-color: aliceblue;
+    height: 1000px;
+}
+
+/*卷軸滑動*/
+
+#banner,
+banner2,
+banner3 {
+
+    background-attachment: fixed; 
+    background-position:top;
+    color: #fff;
+    /*text color*/
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    width: auto;
+    height: 800px;
+    ;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 0px;
+
+}
+
+#banner {
+    background-image: url("tp1.jpg";)
+}
+
+#banner2 {
+    background-image: url("tpw.jpg";)
+}
+
+#banner3 {
+    background-image: url("tp3.jpg";)
+}
